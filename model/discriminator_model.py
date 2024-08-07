@@ -36,7 +36,7 @@ class Discriminator(nn.Module):
     
 
 def test():
-# the output of the test should be (5, 1 , 30, 30)
+# the output of the test should be (5, 1 , 30, 30). Each value in 30 * 30 grid sees a 70 * 70 in the original image
 
     x = torch.randn((5,3, 256, 256))
     model = Discriminator(in_channels=3)
