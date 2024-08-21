@@ -11,6 +11,7 @@ torch = { version = "^2.4.0+cu121", source = "pytorch" }
 torchvision = { version = "^0.19.0+cu121", source = "pytorch" }
 torchaudio = { version = "^2.4.0+cu121", source = "pytorch" }
 albumentations = "*"
+tqdm = "^4.66.5"
 
 [[tool.poetry.source]]
 name = "pytorch"
